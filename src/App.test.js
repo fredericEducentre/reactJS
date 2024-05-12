@@ -3,11 +3,11 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  const linkElement = screen.getByText(/Estimation coût chauffage/i);
   expect(linkElement).toBeInTheDocument();
 });
 
-const { divide, surface } = require('./components/surface.js');
+const { surface } = require('./components/surface.js');
 
 test('test surface', () => {
     expect(surface(2)).toBe(31.80);
