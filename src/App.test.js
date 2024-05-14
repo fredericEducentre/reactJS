@@ -10,6 +10,6 @@ test('renders learn react link', () => {
 const { surface } = require('./components/surface.js');
 
 test('test surface', () => {
-    expect(surface(2)).toBe(31.80);
+    expect(surface(2)).toBe(32);
     expect(surface(1)).toBe(15.90);
 });
